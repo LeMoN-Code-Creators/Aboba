@@ -1,0 +1,3 @@
+[debug]
+port = 8080
+limits = { bytes = "8KiB", ata-form = "2MiB", file = "1MiB", form = "32KiB", json = "1MiB", msgpack = "1MiB", string = "8KiB" }

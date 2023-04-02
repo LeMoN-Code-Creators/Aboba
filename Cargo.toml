@@ -6,4 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-weber = "0.1.1"
+rocket = "=0.5.0-rc.3"
+serde = "1.0.159"
+serde_derive = "1.0.159"
+[dependencies.rocket_contrib]
+version = "0.4.10"
+default-features = false
+features = ["handlebars_templates", "tera_templates"]

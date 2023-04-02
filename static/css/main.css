@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background-image: url("backgrownd.jpg");
+    /* background: rgb(0,239,255);
+    background: linear-gradient(90deg, rgba(0,239,255,1) 0%, rgba(26,205,178,0.8169468470982143) 48%, rgba(0,239,255,1) 100%);  */
+}
+nav {
+    background-color: rgb(20,22,19);
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    min-height: 60px;
+}
+nav p {
+    color: azure;
+    padding-left: 5px;
+}
+.nav-links{
+    padding: 15px;
+    color:azure;
+    text-decoration: none;
+    background:  no-repeat 0 100%;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 2px;
+    transition: background-size .3s ease, color .3s;
+    
+}
+.nav-links:hover, .nav-links:focus{
+    color:#7EB4E2;
+    background-size: 100% 2px
+}
+.content{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    grid-template-columns: 15% 70% 15%;
+}
+.content H1{
+    font-size: 25px;
+}
+.main-content{
+    max-width: 40%;
+}
+table, td{
+    border: 1px solid;
+}
